@@ -1,0 +1,8 @@
+eccube.event.app.controller:
+    - [onAppController, NORMAL]
+Admin/Product/index.twig:
+    - [onAdminCustomerIndexRender, NORMAL]
+Admin/Order/index.twig:
+    - [onAdminCustomerIndexRender, NORMAL]
+Admin/Customer/group/index.twig:
+    - [onAdminCustomerIndexRender, NORMAL]
